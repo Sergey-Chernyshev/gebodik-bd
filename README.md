@@ -1,6 +1,6 @@
 # HI! GEBODIKBD — Educational Relational DBMS (Java 17)
 
-Russian version: `README.ru.md`.
+Russian version: [`README.ru.md`](README.ru.md).
 
 GEBODIKBD is an educational project: a minimal relational DBMS with a client–server architecture, a custom SQL pipeline, and disk-backed storage (heap pages + buffer pool).
 The main goal is to make the full query path tangible — from a SQL string to page reads/writes and index usage.
@@ -75,7 +75,7 @@ HOST=127.0.0.1 PORT=15432 ./run-cli.sh
 - [ ] Better optimizer (statistics, cost-based planning)
 - [ ] SQL extensions (JOIN, ORDER BY, LIMIT)
 
-Full list: `docs/ROADMAP.md`.
+Full list: [`docs/ROADMAP.md`](docs/ROADMAP.md).
 
 ## Architecture
 
@@ -125,7 +125,7 @@ flowchart LR
   IDX --> DISK
 ```
 
-Details and rationale: `docs/ARCHITECTURE.md`.
+Details and rationale: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
 
 ## Examples
 
@@ -141,21 +141,21 @@ CREATE INDEX idx_users_id ON users(id) USING HASH;
 SELECT * FROM users WHERE id = 2;
 ```
 
-More scenarios: `docs/EXAMPLES.md`.
+More scenarios: [`docs/EXAMPLES.md`](docs/EXAMPLES.md).
 
 ## Documentation
 
-- `docs/README.md` — documentation index
-- `docs/ARCHITECTURE.md` — architecture, diagrams, key decisions
-- `docs/PIPELINE.md` — SQL pipeline (lexer/parser/semantic/plans/execution)
-- `docs/SQL_DIALECT.md` — supported SQL dialect and limitations
-- `docs/STORAGE_ENGINE.md` — heap pages, buffer pool, on-disk layout
-- `docs/INDEXES.md` — HASH/BTREE indexes and plan selection rules
-- `docs/PROTOCOL.md` — TCP/JSON protocol
-- `docs/TECHNICAL_ASSIGNMENT.md` — sample technical assignment / checklist
-- `docs/DEVELOPMENT.md` — build, run, configuration
+- [`docs/README.md`](docs/README.md) — documentation index
+- [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) — architecture, diagrams, key decisions
+- [`docs/PIPELINE.md`](docs/PIPELINE.md) — SQL pipeline (lexer/parser/semantic/plans/execution)
+- [`docs/SQL_DIALECT.md`](docs/SQL_DIALECT.md) — supported SQL dialect and limitations
+- [`docs/STORAGE_ENGINE.md`](docs/STORAGE_ENGINE.md) — heap pages, buffer pool, on-disk layout
+- [`docs/INDEXES.md`](docs/INDEXES.md) — HASH/BTREE indexes and plan selection rules
+- [`docs/PROTOCOL.md`](docs/PROTOCOL.md) — TCP/JSON protocol
+- [`docs/TECHNICAL_ASSIGNMENT.md`](docs/TECHNICAL_ASSIGNMENT.md) — sample technical assignment / checklist
+- [`docs/DEVELOPMENT.md`](docs/DEVELOPMENT.md) — build, run, configuration
 
-Russian documentation is available under `docs/ru/`.
+Russian documentation is available under [`docs/ru/`](docs/ru/).
 
 ## Limitations and assumptions
 
@@ -172,10 +172,10 @@ Russian documentation is available under `docs/ru/`.
 
 ## License
 
-See `LICENSE`.
+See [`LICENSE`](LICENSE).
 
 ## Contributing
 
-See `CONTRIBUTING.md`.
+See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 

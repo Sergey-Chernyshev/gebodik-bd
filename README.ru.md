@@ -1,6 +1,6 @@
 # GEBODIKBD — учебная реляционная СУБД на Java 17
 
-English version: `README.md`.
+English version: [`README.md`](README.md).
 
 GEBODIKBD — учебный проект: минимальная реляционная СУБД с клиент‑серверной архитектурой, собственным SQL‑пайплайном и дисковым хранением (heap pages + buffer pool).
 Основная цель — пройти полный путь обработки запроса: от SQL‑строки до чтения/записи страниц и использования индексов.
@@ -80,17 +80,17 @@ HOST=127.0.0.1 PORT=15432 ./run-cli.sh
 - [ ] Улучшение оптимизатора (статистика, cost‑based выбор плана).
 - [ ] Расширение SQL (JOIN, ORDER BY, LIMIT).
 
-Полный список и приоритизация: `docs/ru/ROADMAP.md`.
+Полный список и приоритизация: [`docs/ru/ROADMAP.md`](docs/ru/ROADMAP.md).
 
 ## Архитектура
 
-Детали и мотивация архитектурных решений: `docs/ru/ARCHITECTURE.md`.
+Детали и мотивация архитектурных решений: [`docs/ru/ARCHITECTURE.md`](docs/ru/ARCHITECTURE.md).
 
 ## Примеры
 
-Больше сценариев: `docs/ru/EXAMPLES.md`.
+Больше сценариев: [`docs/ru/EXAMPLES.md`](docs/ru/EXAMPLES.md).
 
 ## Документация
 
-Оглавление: `docs/ru/README.md`.
+Оглавление: [`docs/ru/README.md`](docs/ru/README.md).
 
