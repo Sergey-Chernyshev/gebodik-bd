@@ -1,4 +1,4 @@
-# GEBODIKBD — Educational Relational DBMS (Java 17)
+# HI! GEBODIKBD — Educational Relational DBMS (Java 17)
 
 Русская версия: `README.ru.md`.
 
